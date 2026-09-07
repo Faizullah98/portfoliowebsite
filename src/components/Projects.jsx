@@ -6,7 +6,7 @@ import egreen from "../assets/images/egreen.png";
 import dashboardImage from "../assets/images/expense-tracker.png";
 import harleymind from "../assets/images/harleymindcare.png";
 import moviesearch from "../assets/images/moviesearchtmbd.png";
-import rubranking from "../assets/images/rubranking.png";
+import voipcalling from "../assets/images/voipcalling.png";
 import voipbusiness from "../assets/images/voipbusiness.png";
 
 function Projects() {
@@ -66,13 +66,13 @@ function Projects() {
       image: harleymind,
     },
     {
-      title: "Geo-Targeted SERP Scanner",
+      title: "VoIP Platform",
       description:
-        "An automated WordPress tool verifying instantaneous desktop and mobile keyword positions.",
+        "A responsive VoIP website showcasing business phone systems, calling features, and communication solutions.",
       tech: ["WordPress", "All in One SEO", "Elementor"],
       type: "wordpress",
-      live: "https://rubranking.io/serp-checker/",
-      image: rubranking,
+      live: "https://voipcalling.com/",
+      image: voipcalling,
     },
   ];
 

@@ -4,6 +4,7 @@ import { FaCss3Alt, FaFigma, FaGitAlt, FaHtml5, FaReact } from "react-icons/fa";
 import { LuArrowDownToLine } from "react-icons/lu";
 import { SiBootstrap, SiJavascript, SiTailwindcss } from "react-icons/si";
 import profileImage from "../assets/images/profile-image.png";
+import cv from "../assets/Faizullah_Hussain_Resume.pdf";
 
 function Hero() {
   const [isHovered, setIsHovered] = useState(false);
@@ -108,7 +109,12 @@ function Hero() {
             animate={{ opacity: 1 }}
             transition={{ delay: 1 }}
           >
-            <a href="#" className="download-cv-btn">
+            <a
+              href={cv}
+              className="download-cv-btn"
+              download="Faizullah_Hussain_Resume.pdf"
+              rel="noopener noreferrer"
+            >
               <LuArrowDownToLine strokeWidth={3} size={20} /> Download my CV
             </a>
           </motion.div>

@@ -42,7 +42,7 @@ function About() {
               </div>
               <div className="stat-item">
                 <h3>
-                  <StatCounter targetNumber={4} />+
+                  <StatCounter targetNumber={3} />+
                 </h3>
                 <p>Years Experience</p>
               </div>
